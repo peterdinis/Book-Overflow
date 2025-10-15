@@ -121,7 +121,6 @@
 /home/peterdinis/Desktop/CV/BookOverflow/BookOverflow.AppHost/obj/Debug/net9.0/BookOverflow.AppHost.AssemblyInfoInputs.cache
 /home/peterdinis/Desktop/CV/BookOverflow/BookOverflow.AppHost/obj/Debug/net9.0/BookOverflow.AppHost.AssemblyInfo.cs
 /home/peterdinis/Desktop/CV/BookOverflow/BookOverflow.AppHost/obj/Debug/net9.0/BookOverflow.AppHost.csproj.CoreCompileInputs.cache
-/home/peterdinis/Desktop/CV/BookOverflow/BookOverflow.AppHost/obj/Debug/net9.0/Aspire/references/.ProjectMetadata.g.cs
 /home/peterdinis/Desktop/CV/BookOverflow/BookOverflow.AppHost/obj/Debug/net9.0/Aspire/references/_AppHost.ProjectMetadata.g.cs
 /home/peterdinis/Desktop/CV/BookOverflow/BookOverflow.AppHost/obj/Debug/net9.0/BookOver.4E53E553.Up2Date
 /home/peterdinis/Desktop/CV/BookOverflow/BookOverflow.AppHost/obj/Debug/net9.0/BookOverflow.AppHost.dll
@@ -131,3 +130,4 @@
 /home/peterdinis/Desktop/CV/BookOverflow/BookOverflow.AppHost/obj/Debug/net9.0/ref/BookOverflow.AppHost.dll
 /home/peterdinis/Desktop/CV/BookOverflow/BookOverflow.AppHost/bin/Debug/net9.0/Aspire.Hosting.Keycloak.dll
 /home/peterdinis/Desktop/CV/BookOverflow/BookOverflow.AppHost/obj/Debug/net9.0/BookOverflow.AppHost.sourcelink.json
+/home/peterdinis/Desktop/CV/BookOverflow/BookOverflow.AppHost/obj/Debug/net9.0/Aspire/references/QuestionService.ProjectMetadata.g.cs

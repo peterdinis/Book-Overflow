@@ -1,0 +1,13 @@
+/home/peterdinis/Desktop/CV/BookOverflow/BookOverflow.ServiceDefaults/bin/Debug/net9.0/BookOverflow.ServiceDefaults.deps.json
+/home/peterdinis/Desktop/CV/BookOverflow/BookOverflow.ServiceDefaults/bin/Debug/net9.0/BookOverflow.ServiceDefaults.dll
+/home/peterdinis/Desktop/CV/BookOverflow/BookOverflow.ServiceDefaults/bin/Debug/net9.0/BookOverflow.ServiceDefaults.pdb
+/home/peterdinis/Desktop/CV/BookOverflow/BookOverflow.ServiceDefaults/obj/Debug/net9.0/BookOverflow.ServiceDefaults.csproj.AssemblyReference.cache
+/home/peterdinis/Desktop/CV/BookOverflow/BookOverflow.ServiceDefaults/obj/Debug/net9.0/BookOverflow.ServiceDefaults.GeneratedMSBuildEditorConfig.editorconfig
+/home/peterdinis/Desktop/CV/BookOverflow/BookOverflow.ServiceDefaults/obj/Debug/net9.0/BookOverflow.ServiceDefaults.AssemblyInfoInputs.cache
+/home/peterdinis/Desktop/CV/BookOverflow/BookOverflow.ServiceDefaults/obj/Debug/net9.0/BookOverflow.ServiceDefaults.AssemblyInfo.cs
+/home/peterdinis/Desktop/CV/BookOverflow/BookOverflow.ServiceDefaults/obj/Debug/net9.0/BookOverflow.ServiceDefaults.csproj.CoreCompileInputs.cache
+/home/peterdinis/Desktop/CV/BookOverflow/BookOverflow.ServiceDefaults/obj/Debug/net9.0/BookOverflow.ServiceDefaults.sourcelink.json
+/home/peterdinis/Desktop/CV/BookOverflow/BookOverflow.ServiceDefaults/obj/Debug/net9.0/BookOverflow.ServiceDefaults.dll
+/home/peterdinis/Desktop/CV/BookOverflow/BookOverflow.ServiceDefaults/obj/Debug/net9.0/refint/BookOverflow.ServiceDefaults.dll
+/home/peterdinis/Desktop/CV/BookOverflow/BookOverflow.ServiceDefaults/obj/Debug/net9.0/BookOverflow.ServiceDefaults.pdb
+/home/peterdinis/Desktop/CV/BookOverflow/BookOverflow.ServiceDefaults/obj/Debug/net9.0/ref/BookOverflow.ServiceDefaults.dll
