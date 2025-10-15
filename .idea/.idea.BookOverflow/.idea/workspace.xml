@@ -11,23 +11,27 @@
   <component name="ChangeListManager">
     <list default="true" id="2299b182-a23c-4e6e-a064-c7f52d4247b0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BookOverflow/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BookOverflow/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookOverflow.AppHost/AppHost.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BookOverflow.AppHost/AppHost.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookOverflow.AppHost/bin/Debug/net9.0/BookOverflow.AppHost.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BookOverflow.AppHost/bin/Debug/net9.0/BookOverflow.AppHost.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookOverflow.AppHost/bin/Debug/net9.0/BookOverflow.AppHost.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BookOverflow.AppHost/bin/Debug/net9.0/BookOverflow.AppHost.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookOverflow.AppHost/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/BookOverflow.AppHost/Properties/launchSettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookOverflow.AppHost/obj/Debug/net9.0/BookOverflow.AppHost.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BookOverflow.AppHost/obj/Debug/net9.0/BookOverflow.AppHost.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookOverflow.AppHost/obj/Debug/net9.0/BookOverflow.AppHost.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BookOverflow.AppHost/obj/Debug/net9.0/BookOverflow.AppHost.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookOverflow.AppHost/obj/Debug/net9.0/BookOverflow.AppHost.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/BookOverflow.AppHost/obj/Debug/net9.0/BookOverflow.AppHost.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookOverflow.AppHost/obj/Debug/net9.0/BookOverflow.AppHost.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BookOverflow.AppHost/obj/Debug/net9.0/BookOverflow.AppHost.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookOverflow.AppHost/obj/Debug/net9.0/BookOverflow.AppHost.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BookOverflow.AppHost/obj/Debug/net9.0/BookOverflow.AppHost.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookOverflow.AppHost/obj/Debug/net9.0/BookOverflow.AppHost.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/BookOverflow.AppHost/obj/Debug/net9.0/BookOverflow.AppHost.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookOverflow.AppHost/obj/Debug/net9.0/ref/BookOverflow.AppHost.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BookOverflow.AppHost/obj/Debug/net9.0/ref/BookOverflow.AppHost.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookOverflow.AppHost/obj/Debug/net9.0/refint/BookOverflow.AppHost.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BookOverflow.AppHost/obj/Debug/net9.0/refint/BookOverflow.AppHost.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookOverflow.AppHost/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/BookOverflow.AppHost/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookOverflow.AppHost/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/BookOverflow.AppHost/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookOverflow.ServiceDefaults/obj/Debug/net9.0/BookOverflow.ServiceDefaults.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BookOverflow.ServiceDefaults/obj/Debug/net9.0/BookOverflow.ServiceDefaults.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookOverflow.ServiceDefaults/obj/Debug/net9.0/BookOverflow.ServiceDefaults.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BookOverflow.ServiceDefaults/obj/Debug/net9.0/BookOverflow.ServiceDefaults.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookOverflow.ServiceDefaults/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/BookOverflow.ServiceDefaults/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookOverflow.ServiceDefaults/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/BookOverflow.ServiceDefaults/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/QuestionService/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/QuestionService/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuestionService/QuestionService.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/QuestionService/QuestionService.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/QuestionService/obj/Debug/net9.0/QuestionService.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/QuestionService/obj/Debug/net9.0/QuestionService.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/QuestionService/obj/Debug/net9.0/QuestionService.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/QuestionService/obj/Debug/net9.0/QuestionService.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuestionService/obj/Debug/net9.0/QuestionService.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/QuestionService/obj/Debug/net9.0/QuestionService.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/QuestionService/obj/Debug/net9.0/QuestionService.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/QuestionService/obj/Debug/net9.0/QuestionService.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuestionService/obj/QuestionService.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/QuestionService/obj/QuestionService.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuestionService/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/QuestionService/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuestionService/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/QuestionService/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuestionService/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/QuestionService/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuestionService/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/QuestionService/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuestionService/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/QuestionService/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,24 +52,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Aspire Host.BookOverflow.AppHost: http.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "junie.onboarding.icon.badge.shown": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Aspire Host.BookOverflow.AppHost: http.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Aspire Host.BookOverflow.AppHost: http">
     <configuration name="BookOverflow.AppHost: http" type="AspireHostConfiguration" factoryName="Aspire Host" activateToolWindowBeforeRun="false">
       <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/BookOverflow.AppHost/BookOverflow.AppHost.csproj" />
@@ -142,7 +146,8 @@
       <option name="presentableId" value="Default" />
       <updated>1760470296477</updated>
       <workItem from="1760470298237" duration="2259000" />
-      <workItem from="1760514946207" duration="7353000" />
+      <workItem from="1760514946207" duration="8100000" />
+      <workItem from="1760552658597" duration="358000" />
     </task>
     <servers />
   </component>

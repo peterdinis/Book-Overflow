@@ -8,6 +8,12 @@ builder.Services.AddOpenApi();
 
 // aspire things
 builder.AddServiceDefaults();
+builder.Services.AddAuthentication()
+    .AddKeycloakJwtBearer(serviceName: "keycloack", realm: "bookoverflow", options =>
+    {
+        options.RequireHttpsMetadata = false;
+        options.Audience = "bookoverflow";
+    });
 
 var app = builder.Build();
 
