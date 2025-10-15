@@ -129,3 +129,5 @@
 /home/peterdinis/Desktop/CV/BookOverflow/BookOverflow.AppHost/obj/Debug/net9.0/BookOverflow.AppHost.pdb
 /home/peterdinis/Desktop/CV/BookOverflow/BookOverflow.AppHost/obj/Debug/net9.0/BookOverflow.AppHost.genruntimeconfig.cache
 /home/peterdinis/Desktop/CV/BookOverflow/BookOverflow.AppHost/obj/Debug/net9.0/ref/BookOverflow.AppHost.dll
+/home/peterdinis/Desktop/CV/BookOverflow/BookOverflow.AppHost/bin/Debug/net9.0/Aspire.Hosting.Keycloak.dll
+/home/peterdinis/Desktop/CV/BookOverflow/BookOverflow.AppHost/obj/Debug/net9.0/BookOverflow.AppHost.sourcelink.json

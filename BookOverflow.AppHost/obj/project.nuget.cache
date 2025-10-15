@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "A8NmhLkLYjI=",
+  "dgSpecHash": "jq1KUswt8/M=",
   "success": true,
   "projectFilePath": "/home/peterdinis/Desktop/CV/BookOverflow/BookOverflow.AppHost/BookOverflow.AppHost.csproj",
   "expectedPackageFiles": [
     "/home/peterdinis/.nuget/packages/aspire.dashboard.sdk.linux-x64/9.5.1/aspire.dashboard.sdk.linux-x64.9.5.1.nupkg.sha512",
     "/home/peterdinis/.nuget/packages/aspire.hosting/9.5.1/aspire.hosting.9.5.1.nupkg.sha512",
     "/home/peterdinis/.nuget/packages/aspire.hosting.apphost/9.5.1/aspire.hosting.apphost.9.5.1.nupkg.sha512",
+    "/home/peterdinis/.nuget/packages/aspire.hosting.keycloak/9.5.1-preview.1.25502.11/aspire.hosting.keycloak.9.5.1-preview.1.25502.11.nupkg.sha512",
     "/home/peterdinis/.nuget/packages/aspire.hosting.orchestration.linux-x64/9.5.1/aspire.hosting.orchestration.linux-x64.9.5.1.nupkg.sha512",
     "/home/peterdinis/.nuget/packages/aspnetcore.healthchecks.uris/9.0.0/aspnetcore.healthchecks.uris.9.0.0.nupkg.sha512",
     "/home/peterdinis/.nuget/packages/fractions/7.3.0/fractions.7.3.0.nupkg.sha512",

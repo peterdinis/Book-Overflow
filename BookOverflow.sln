@@ -4,6 +4,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookOverflow.AppHost", "Boo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookOverflow.ServiceDefaults", "BookOverflow.ServiceDefaults\BookOverflow.ServiceDefaults.csproj", "{1E36578D-1E54-4219-B115-D29F036E35D3}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "services", "services", "{236E8994-6591-42D4-A4F7-2A2615345B42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuestionService", "QuestionService\QuestionService.csproj", "{E4C04F46-2A0F-4509-BB8C-670CFA07BB91}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +22,12 @@ Global
 		{1E36578D-1E54-4219-B115-D29F036E35D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E36578D-1E54-4219-B115-D29F036E35D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E36578D-1E54-4219-B115-D29F036E35D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4C04F46-2A0F-4509-BB8C-670CFA07BB91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4C04F46-2A0F-4509-BB8C-670CFA07BB91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4C04F46-2A0F-4509-BB8C-670CFA07BB91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4C04F46-2A0F-4509-BB8C-670CFA07BB91}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E4C04F46-2A0F-4509-BB8C-670CFA07BB91} = {236E8994-6591-42D4-A4F7-2A2615345B42}
 	EndGlobalSection
 EndGlobal
