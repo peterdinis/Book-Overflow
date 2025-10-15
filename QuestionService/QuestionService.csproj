@@ -15,4 +15,8 @@
       <ProjectReference Include="..\BookOverflow.ServiceDefaults\BookOverflow.ServiceDefaults.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="Data\" />
+    </ItemGroup>
+
 </Project>
