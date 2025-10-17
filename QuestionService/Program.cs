@@ -1,3 +1,6 @@
+using QuestionService.Data;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -14,6 +17,9 @@ builder.Services.AddAuthentication()
         options.RequireHttpsMetadata = false;
         options.Audience = "bookoverflow";
     });
+
+builder.Services.AddDbContext<QuestionDbContext>(options =>
+    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 var app = builder.Build();
 

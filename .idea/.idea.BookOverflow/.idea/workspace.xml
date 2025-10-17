@@ -13,14 +13,24 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BookOverflow/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BookOverflow/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookOverflow.AppHost/obj/Debug/net9.0/BookOverflow.AppHost.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BookOverflow.AppHost/obj/Debug/net9.0/BookOverflow.AppHost.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookOverflow.AppHost/obj/Debug/net9.0/BookOverflow.AppHost.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BookOverflow.AppHost/obj/Debug/net9.0/BookOverflow.AppHost.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookOverflow.AppHost/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/BookOverflow.AppHost/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookOverflow.AppHost/obj/Debug/net9.0/BookOverflow.AppHost.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BookOverflow.AppHost/obj/Debug/net9.0/BookOverflow.AppHost.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookOverflow.AppHost/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/BookOverflow.AppHost/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookOverflow.ServiceDefaults/obj/Debug/net9.0/BookOverflow.ServiceDefaults.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BookOverflow.ServiceDefaults/obj/Debug/net9.0/BookOverflow.ServiceDefaults.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookOverflow.ServiceDefaults/obj/Debug/net9.0/BookOverflow.ServiceDefaults.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BookOverflow.ServiceDefaults/obj/Debug/net9.0/BookOverflow.ServiceDefaults.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookOverflow.ServiceDefaults/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/BookOverflow.ServiceDefaults/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuestionService/Models/Question.cs" beforeDir="false" afterPath="$PROJECT_DIR$/QuestionService/Models/Question.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookOverflow.ServiceDefaults/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/BookOverflow.ServiceDefaults/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuestionService/Data/QuestionDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/QuestionService/Data/QuestionDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuestionService/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/QuestionService/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuestionService/QuestionService.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/QuestionService/QuestionService.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/QuestionService/obj/Debug/net9.0/QuestionService.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/QuestionService/obj/Debug/net9.0/QuestionService.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/QuestionService/obj/Debug/net9.0/QuestionService.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/QuestionService/obj/Debug/net9.0/QuestionService.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuestionService/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/QuestionService/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuestionService/obj/Debug/net9.0/QuestionService.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/QuestionService/obj/Debug/net9.0/QuestionService.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuestionService/obj/Debug/net9.0/QuestionService.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/QuestionService/obj/Debug/net9.0/QuestionService.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuestionService/obj/QuestionService.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/QuestionService/obj/QuestionService.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuestionService/obj/QuestionService.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/QuestionService/obj/QuestionService.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuestionService/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/QuestionService/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuestionService/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/QuestionService/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuestionService/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/QuestionService/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuestionService/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/QuestionService/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +44,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/QuestionService/Data/QuestionDbContext.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/QuestionService/Models/Question.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/QuestionService/Models/Tag.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -141,7 +153,7 @@
       <workItem from="1760514946207" duration="8100000" />
       <workItem from="1760552658597" duration="5013000" />
       <workItem from="1760705541364" duration="1206000" />
-      <workItem from="1760725782358" duration="304000" />
+      <workItem from="1760725782358" duration="918000" />
     </task>
     <servers />
   </component>
