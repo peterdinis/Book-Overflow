@@ -10,10 +10,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2299b182-a23c-4e6e-a064-c7f52d4247b0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BookOverflow/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BookOverflow/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuestionService/Controllers/WeatherForecastController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookOverflow.ServiceDefaults/bin/Debug/net9.0/BookOverflow.ServiceDefaults.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BookOverflow.ServiceDefaults/bin/Debug/net9.0/BookOverflow.ServiceDefaults.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookOverflow.ServiceDefaults/bin/Debug/net9.0/BookOverflow.ServiceDefaults.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BookOverflow.ServiceDefaults/bin/Debug/net9.0/BookOverflow.ServiceDefaults.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookOverflow.ServiceDefaults/obj/Debug/net9.0/BookOverflow.ServiceDefaults.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BookOverflow.ServiceDefaults/obj/Debug/net9.0/BookOverflow.ServiceDefaults.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookOverflow.ServiceDefaults/obj/Debug/net9.0/BookOverflow.ServiceDefaults.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BookOverflow.ServiceDefaults/obj/Debug/net9.0/BookOverflow.ServiceDefaults.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookOverflow.ServiceDefaults/obj/Debug/net9.0/BookOverflow.ServiceDefaults.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BookOverflow.ServiceDefaults/obj/Debug/net9.0/BookOverflow.ServiceDefaults.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookOverflow.ServiceDefaults/obj/Debug/net9.0/BookOverflow.ServiceDefaults.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BookOverflow.ServiceDefaults/obj/Debug/net9.0/BookOverflow.ServiceDefaults.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookOverflow.ServiceDefaults/obj/Debug/net9.0/BookOverflow.ServiceDefaults.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/BookOverflow.ServiceDefaults/obj/Debug/net9.0/BookOverflow.ServiceDefaults.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookOverflow.ServiceDefaults/obj/Debug/net9.0/ref/BookOverflow.ServiceDefaults.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BookOverflow.ServiceDefaults/obj/Debug/net9.0/ref/BookOverflow.ServiceDefaults.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookOverflow.ServiceDefaults/obj/Debug/net9.0/refint/BookOverflow.ServiceDefaults.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BookOverflow.ServiceDefaults/obj/Debug/net9.0/refint/BookOverflow.ServiceDefaults.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuestionService/bin/Debug/net9.0/BookOverflow.ServiceDefaults.dll" beforeDir="false" afterPath="$PROJECT_DIR$/QuestionService/bin/Debug/net9.0/BookOverflow.ServiceDefaults.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuestionService/bin/Debug/net9.0/BookOverflow.ServiceDefaults.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/QuestionService/bin/Debug/net9.0/BookOverflow.ServiceDefaults.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuestionService/bin/Debug/net9.0/Microsoft.Extensions.Configuration.Abstractions.dll" beforeDir="false" afterPath="$PROJECT_DIR$/QuestionService/bin/Debug/net9.0/Microsoft.Extensions.Configuration.Abstractions.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuestionService/bin/Debug/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll" beforeDir="false" afterPath="$PROJECT_DIR$/QuestionService/bin/Debug/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuestionService/bin/Debug/net9.0/Microsoft.Extensions.DependencyInjection.dll" beforeDir="false" afterPath="$PROJECT_DIR$/QuestionService/bin/Debug/net9.0/Microsoft.Extensions.DependencyInjection.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuestionService/bin/Debug/net9.0/Microsoft.Extensions.Logging.Abstractions.dll" beforeDir="false" afterPath="$PROJECT_DIR$/QuestionService/bin/Debug/net9.0/Microsoft.Extensions.Logging.Abstractions.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuestionService/bin/Debug/net9.0/Microsoft.Extensions.Logging.dll" beforeDir="false" afterPath="$PROJECT_DIR$/QuestionService/bin/Debug/net9.0/Microsoft.Extensions.Logging.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuestionService/bin/Debug/net9.0/Microsoft.Extensions.Options.dll" beforeDir="false" afterPath="$PROJECT_DIR$/QuestionService/bin/Debug/net9.0/Microsoft.Extensions.Options.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuestionService/bin/Debug/net9.0/Microsoft.Extensions.Primitives.dll" beforeDir="false" afterPath="$PROJECT_DIR$/QuestionService/bin/Debug/net9.0/Microsoft.Extensions.Primitives.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuestionService/bin/Debug/net9.0/QuestionService.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/QuestionService/bin/Debug/net9.0/QuestionService.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuestionService/bin/Debug/net9.0/QuestionService.dll" beforeDir="false" afterPath="$PROJECT_DIR$/QuestionService/bin/Debug/net9.0/QuestionService.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuestionService/bin/Debug/net9.0/QuestionService.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/QuestionService/bin/Debug/net9.0/QuestionService.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuestionService/bin/Debug/net9.0/QuestionService.runtimeconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/QuestionService/bin/Debug/net9.0/QuestionService.runtimeconfig.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/QuestionService/obj/Debug/net9.0/QuestionService.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/QuestionService/obj/Debug/net9.0/QuestionService.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/QuestionService/obj/Debug/net9.0/QuestionService.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/QuestionService/obj/Debug/net9.0/QuestionService.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuestionService/obj/Debug/net9.0/QuestionService.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/QuestionService/obj/Debug/net9.0/QuestionService.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuestionService/obj/Debug/net9.0/QuestionService.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/QuestionService/obj/Debug/net9.0/QuestionService.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuestionService/obj/Debug/net9.0/QuestionService.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/QuestionService/obj/Debug/net9.0/QuestionService.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuestionService/obj/Debug/net9.0/QuestionService.dll" beforeDir="false" afterPath="$PROJECT_DIR$/QuestionService/obj/Debug/net9.0/QuestionService.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuestionService/obj/Debug/net9.0/QuestionService.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/QuestionService/obj/Debug/net9.0/QuestionService.genruntimeconfig.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuestionService/obj/Debug/net9.0/QuestionService.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/QuestionService/obj/Debug/net9.0/QuestionService.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuestionService/obj/Debug/net9.0/QuestionService.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/QuestionService/obj/Debug/net9.0/QuestionService.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuestionService/obj/Debug/net9.0/ref/QuestionService.dll" beforeDir="false" afterPath="$PROJECT_DIR$/QuestionService/obj/Debug/net9.0/ref/QuestionService.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuestionService/obj/Debug/net9.0/refint/QuestionService.dll" beforeDir="false" afterPath="$PROJECT_DIR$/QuestionService/obj/Debug/net9.0/refint/QuestionService.dll" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,10 +57,12 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/QuestionService/Controllers/QuestionsController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/QuestionService/Controllers/TagController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/QuestionService/DTOs/CreateQuestionDto.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/QuestionService/Data/QuestionDbContext.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/QuestionService/Models/Question.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/QuestionService/Models/Tag.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/QuestionService/Validators/TagListValidators.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -138,7 +169,7 @@
       <workItem from="1760514946207" duration="8100000" />
       <workItem from="1760552658597" duration="5013000" />
       <workItem from="1760705541364" duration="1206000" />
-      <workItem from="1760725782358" duration="1880000" />
+      <workItem from="1760725782358" duration="2565000" />
     </task>
     <servers />
   </component>

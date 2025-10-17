@@ -1,0 +1,41 @@
+# Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# Visual Studio files
+.vs/
+*.dbmdl
+*.vscode/
+*.ncb
+*.aps
+*.cachefile
+
+# NuGet
+*.nupkg
+*.snupkg
+*.nuspec
+packages/
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# ASP.NET / .NET Aspire specific
+appsettings.Development.json
+appsettings.Local.json
+/Properties/launchSettings.json
+
+# Logs and temp
+*.log
+*.tmp
+*.temp
+*.bak
