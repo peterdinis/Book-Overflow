@@ -1,7 +1,7 @@
 var builder = DistributedApplication.CreateBuilder(args);
 
 var keycloak = builder.AddKeycloak("keycloak", 6001)
-    .WithDataVolume("keycloak-data");
+    .WithDataVolume("keycloak-data-dev");
 
 //TODO For now sqlite later postgresql
 
