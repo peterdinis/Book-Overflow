@@ -39,3 +39,5 @@ appsettings.Local.json
 *.tmp
 *.temp
 *.bak
+
+TODO.md

@@ -12,7 +12,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2299b182-a23c-4e6e-a064-c7f52d4247b0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BookOverflow/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BookOverflow/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookOverflow.AppHost/AppHost.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BookOverflow.AppHost/AppHost.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SearchService/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SearchService/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,7 +157,7 @@
       <workItem from="1760705541364" duration="1206000" />
       <workItem from="1760725782358" duration="3744000" />
       <workItem from="1760813518691" duration="3648000" />
-      <workItem from="1760865371853" duration="2821000" />
+      <workItem from="1760865371853" duration="5036000" />
     </task>
     <servers />
   </component>
