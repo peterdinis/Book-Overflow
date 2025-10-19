@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BookOverflow.ServiceDefaults")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6ff2e1f5d7535bb7a23f242fcad2b3170c435416")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6a76d4504408f2d7e8dc596f3288a54c7c1b043a")]
 [assembly: System.Reflection.AssemblyProductAttribute("BookOverflow.ServiceDefaults")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BookOverflow.ServiceDefaults")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
