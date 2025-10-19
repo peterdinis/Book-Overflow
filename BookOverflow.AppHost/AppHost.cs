@@ -5,6 +5,10 @@ var keycloak = builder.AddKeycloak("keycloak", 6001)
 
 //TODO For now sqlite later postgresql
 
+var rabbitmq = builder.AddRabbitMQ("messaging")
+    .WithDataVolume("rabbitmq-data")
+    .WithManagementPlugin(port: 15672);
+
 var typesense = builder.AddContainer("typesense", "typesense/typesense", "29.0")
     .WithArgs("--data-dir", "/data", "--api-key", "xyz", "--enable-cors")
     .WithVolume("typesense-data", "/data")
@@ -14,7 +18,9 @@ var typesenseContainer = typesense.GetEndpoint("typesense");
 
 var questionService = builder.AddProject<Projects.QuestionService>("question-svc")
     .WithReference(keycloak)
-    .WaitFor(keycloak);
+    .WithReference(rabbitmq)
+    .WaitFor(keycloak)
+    .WaitFor(rabbitmq);
 
 var searchService = builder.AddProject<Projects.SearchService>("search-svc")
     .WithReference(typesenseContainer)
