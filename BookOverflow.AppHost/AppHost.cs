@@ -12,9 +12,12 @@ var typesense = builder.AddContainer("typesense", "typesense/typesense", "29.0")
 
 var typesenseContainer = typesense.GetEndpoint("typesense");
 
-
 var questionService = builder.AddProject<Projects.QuestionService>("question-svc")
     .WithReference(keycloak)
     .WaitFor(keycloak);
+
+var searchService = builder.AddProject<Projects.SearchService>("search-svc")
+    .WithReference(typesenseContainer)
+    .WaitFor(typesense);
 
 builder.Build().Run();
