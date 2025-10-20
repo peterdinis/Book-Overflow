@@ -1,16 +1,29 @@
 "use client"
 
-import { FC, useState } from "react";
+import { FC, useState } from "react"
 import { useRouter, useSearchParams } from "next/navigation"
+import { motion } from "framer-motion"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+import {
+    Card,
+    CardContent,
+    CardDescription,
+    CardHeader,
+    CardTitle,
+} from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
+import {
+    Select,
+    SelectContent,
+    SelectItem,
+    SelectTrigger,
+    SelectValue,
+} from "@/components/ui/select"
 import { BookOpen, Plus, X, HelpCircle } from "lucide-react"
-import { mockBooks } from "@/mockData/mockData";
-import { Navbar } from "../shared/Navbar";
+import { mockBooks } from "@/mockData/mockData"
+import { Navbar } from "../shared/Navbar"
 
 const AskWrapper: FC = () => {
     const router = useRouter()
@@ -60,32 +73,43 @@ const AskWrapper: FC = () => {
         <div className="min-h-screen bg-background">
             <Navbar />
 
-            <main className="container py-8 max-w-4xl">
-                <div className="mb-8 animate-in fade-in slide-in-from-bottom-4 duration-700">
-                    <div className="flex items-center gap-3 mb-4">
-                        <div className="h-12 w-12 rounded-full bg-primary/10 flex items-center justify-center">
-                            <HelpCircle className="h-6 w-6 text-primary" />
-                        </div>
-                        <div>
-                            <h1 className="text-3xl font-bold">Ask a Question</h1>
-                            <p className="text-muted-foreground">Share your curiosity with the community</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="grid lg:grid-cols-[1fr_300px] gap-8">
-                    <Card className="animate-in fade-in slide-in-from-left duration-700">
+            <motion.main
+                className="container max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-center min-h-screen gap-8 px-4"
+                initial={{ opacity: 0, y: 50 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.6, ease: "easeOut" }}
+            >
+                {/* Left: Question Form */}
+                <motion.div
+                    className="w-full lg:flex-1"
+                    initial={{ opacity: 0, x: -50 }}
+                    animate={{ opacity: 1, x: 0 }}
+                    transition={{ duration: 0.6, ease: "easeOut" }}
+                >
+                    <Card>
                         <CardHeader>
-                            <CardTitle>Question Details</CardTitle>
-                            <CardDescription>Be specific and clear to get the best answers</CardDescription>
+                            <div className="flex items-center gap-3 mb-2">
+                                <div className="h-12 w-12 rounded-full bg-primary/10 flex items-center justify-center">
+                                    <HelpCircle className="h-6 w-6 text-primary" />
+                                </div>
+                                <div>
+                                    <CardTitle className="text-2xl">Ask a Question</CardTitle>
+                                    <CardDescription>
+                                        Share your curiosity with the community
+                                    </CardDescription>
+                                </div>
+                            </div>
                         </CardHeader>
                         <CardContent>
                             <form onSubmit={handleSubmit} className="space-y-6">
+                                {/* Book Select */}
                                 <div className="space-y-2">
                                     <Label htmlFor="book">Select Book *</Label>
                                     <Select
                                         value={formData.bookId}
-                                        onValueChange={(value) => setFormData({ ...formData, bookId: value })}
+                                        onValueChange={(value) =>
+                                            setFormData({ ...formData, bookId: value })
+                                        }
                                     >
                                         <SelectTrigger id="book">
                                             <SelectValue placeholder="Choose a book" />
@@ -99,7 +123,7 @@ const AskWrapper: FC = () => {
                                         </SelectContent>
                                     </Select>
                                     {selectedBook && (
-                                        <div className="flex items-center gap-2 p-3 bg-muted rounded-lg mt-2 animate-in fade-in duration-300">
+                                        <div className="flex items-center gap-2 p-3 bg-muted rounded-lg mt-2">
                                             <BookOpen className="h-4 w-4 text-primary" />
                                             <span className="text-sm">
                                                 {selectedBook.title} by {selectedBook.author}
@@ -108,13 +132,16 @@ const AskWrapper: FC = () => {
                                     )}
                                 </div>
 
+                                {/* Question Title */}
                                 <div className="space-y-2">
                                     <Label htmlFor="title">Question Title *</Label>
                                     <Input
                                         id="title"
                                         placeholder="e.g., What does the green light symbolize in The Great Gatsby?"
                                         value={formData.title}
-                                        onChange={(e) => setFormData({ ...formData, title: e.target.value })}
+                                        onChange={(e) =>
+                                            setFormData({ ...formData, title: e.target.value })
+                                        }
                                         required
                                         className="transition-all duration-200 focus:scale-[1.01]"
                                     />
@@ -123,14 +150,26 @@ const AskWrapper: FC = () => {
                                     </p>
                                 </div>
 
+                                {/* Question Details */}
                                 <div className="space-y-2">
                                     <Label htmlFor="content">Question Details *</Label>
-                                    TODO EDITOR
+                                    <textarea
+                                        id="content"
+                                        placeholder="Provide details about your question..."
+                                        value={formData.content}
+                                        onChange={(e) =>
+                                            setFormData({ ...formData, content: e.target.value })
+                                        }
+                                        required
+                                        className="w-full border rounded-md p-2 focus:outline-none focus:ring-2 focus:ring-primary transition-all"
+                                        rows={6}
+                                    />
                                     <p className="text-xs text-muted-foreground">
                                         Include all the information someone would need to answer your question
                                     </p>
                                 </div>
 
+                                {/* Tags */}
                                 <div className="space-y-2">
                                     <Label htmlFor="tags">Tags (up to 5)</Label>
                                     <div className="flex gap-2">
@@ -147,7 +186,12 @@ const AskWrapper: FC = () => {
                                             }}
                                             disabled={formData.tags.length >= 5}
                                         />
-                                        <Button type="button" onClick={handleAddTag} disabled={formData.tags.length >= 5} variant="outline">
+                                        <Button
+                                            type="button"
+                                            onClick={handleAddTag}
+                                            disabled={formData.tags.length >= 5}
+                                            variant="outline"
+                                        >
                                             <Plus className="h-4 w-4" />
                                         </Button>
                                     </div>
@@ -169,7 +213,12 @@ const AskWrapper: FC = () => {
                                     )}
                                 </div>
 
-                                <Button type="submit" size="lg" className="w-full" disabled={isSubmitting || !formData.bookId}>
+                                <Button
+                                    type="submit"
+                                    size="lg"
+                                    className="w-full"
+                                    disabled={isSubmitting || !formData.bookId}
+                                >
                                     {isSubmitting ? (
                                         <span className="flex items-center gap-2">
                                             <span className="h-4 w-4 border-2 border-background border-t-transparent rounded-full animate-spin" />
@@ -182,55 +231,45 @@ const AskWrapper: FC = () => {
                             </form>
                         </CardContent>
                     </Card>
+                </motion.div>
 
-                    <div className="space-y-4 animate-in fade-in slide-in-from-right duration-700">
-                        <Card>
-                            <CardHeader>
-                                <CardTitle className="text-lg">Writing Tips</CardTitle>
-                            </CardHeader>
-                            <CardContent className="space-y-3 text-sm">
-                                <div className="flex gap-2">
+                {/* Right: Writing Tips */}
+                <motion.div
+                    className="w-full lg:w-72 flex-shrink-0 space-y-4"
+                    initial={{ opacity: 0, x: 50 }}
+                    animate={{ opacity: 1, x: 0 }}
+                    transition={{ duration: 0.6, ease: "easeOut", delay: 0.2 }}
+                >
+                    <Card>
+                        <CardHeader>
+                            <CardTitle className="text-lg">Writing Tips</CardTitle>
+                        </CardHeader>
+                        <CardContent className="space-y-3 text-sm">
+                            {["Choose the correct book for your question",
+                              "Write a clear, specific title",
+                              "Provide context and details in the body",
+                              "Add relevant tags to help others find your question"].map((tip, idx) => (
+                                <div key={idx} className="flex gap-2">
                                     <div className="h-6 w-6 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
-                                        <span className="text-xs font-bold text-primary">1</span>
+                                        <span className="text-xs font-bold text-primary">{idx + 1}</span>
                                     </div>
-                                    <p className="text-foreground/80 leading-relaxed">Choose the correct book for your question</p>
+                                    <p className="text-foreground/80 leading-relaxed">{tip}</p>
                                 </div>
-                                <div className="flex gap-2">
-                                    <div className="h-6 w-6 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
-                                        <span className="text-xs font-bold text-primary">2</span>
-                                    </div>
-                                    <p className="text-foreground/80 leading-relaxed">Write a clear, specific title</p>
-                                </div>
-                                <div className="flex gap-2">
-                                    <div className="h-6 w-6 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
-                                        <span className="text-xs font-bold text-primary">3</span>
-                                    </div>
-                                    <p className="text-foreground/80 leading-relaxed">Provide context and details in the body</p>
-                                </div>
-                                <div className="flex gap-2">
-                                    <div className="h-6 w-6 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
-                                        <span className="text-xs font-bold text-primary">4</span>
-                                    </div>
-                                    <p className="text-foreground/80 leading-relaxed">
-                                        Add relevant tags to help others find your question
-                                    </p>
-                                </div>
-                            </CardContent>
-                        </Card>
+                            ))}
+                        </CardContent>
+                    </Card>
 
-                        <Card className="bg-gradient-to-br from-primary/5 to-primary/10 border-primary/20">
-                            <CardContent className="p-4">
-                                <p className="text-sm text-foreground/80 leading-relaxed">
-                                    <strong className="text-foreground">Pro tip:</strong> Search for similar questions before posting to
-                                    avoid duplicates and find existing answers.
-                                </p>
-                            </CardContent>
-                        </Card>
-                    </div>
-                </div>
-            </main>
+                    <Card className="bg-gradient-to-br from-primary/5 to-primary/10 border-primary/20">
+                        <CardContent className="p-4">
+                            <p className="text-sm text-foreground/80 leading-relaxed">
+                                <strong className="text-foreground">Pro tip:</strong> Search for similar questions before posting to avoid duplicates and find existing answers.
+                            </p>
+                        </CardContent>
+                    </Card>
+                </motion.div>
+            </motion.main>
         </div>
     )
 }
 
-export default AskWrapper;
+export default AskWrapper
