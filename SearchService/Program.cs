@@ -1,6 +1,12 @@
 using Typesense.Setup;
 using Typesense;
 using SearchService.Data;
+using SearchService.Models;
+using System.Text.RegularExpressions;
+using OpenTelemetry.Trace;
+using OpenTelemetry.Resources;
+using Wolverine;
+using Wolverine.RabbitMQ;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,6 +14,23 @@ var builder = WebApplication.CreateBuilder(args);
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
 builder.AddServiceDefaults();
+
+builder.Services.AddOpenTelemetry().WithTracing(traceProviderBuilder =>
+{
+    traceProviderBuilder.SetResourceBuilder(ResourceBuilder.CreateDefault()
+            .AddService(builder.Environment.ApplicationName))
+        .AddSource("Wolverine");
+});
+
+builder.Host.UseWolverine(opts =>
+{
+    opts.UseRabbitMqUsingNamedConnection("messaging").AutoProvision();
+    opts.ListenToRabbitQueue("questions.search", cfg =>
+    {
+        cfg.BindExchange("questions");
+    });
+
+});
 
 var typesenseUri = builder.Configuration["services:typesense:typesense:0"];
 if (string.IsNullOrEmpty(typesenseUri))
@@ -36,6 +59,35 @@ if (app.Environment.IsDevelopment())
 }
 
 app.MapDefaultEndpoints();
+
+app.MapGet("/search", async (string query, ITypesenseClient client) =>
+{
+    // [aspire]something
+    string? tag = null;
+    var tagMatch = Regex.Match(query, @"\[(.*?)\]");
+    if (tagMatch.Success)
+    {
+        tag = tagMatch.Groups[1].Value;
+        query = query.Replace(tagMatch.Value, "").Trim();
+    }
+
+    var searchParams = new SearchParameters(query, "title,content");
+
+    if (!string.IsNullOrWhiteSpace(tag))
+    {
+        searchParams.FilterBy = $"tags:=[{tag}]";
+    }
+
+    try
+    {
+        var result = await client.Search<SearchQuestion>("questions", searchParams);
+        return Results.Ok(result.Hits.Select(hit => hit.Document));
+    }
+    catch (Exception e)
+    {
+        return Results.Problem("Typesense search failed", e.Message);
+    }
+});
 
 using var scope = app.Services.CreateScope();
 var client = scope.ServiceProvider.GetRequiredService<ITypesenseClient>();
