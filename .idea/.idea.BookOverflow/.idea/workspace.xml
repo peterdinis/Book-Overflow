@@ -11,16 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2299b182-a23c-4e6e-a064-c7f52d4247b0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Contracts/QuestionDeleted.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BookOverflow/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BookOverflow/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuestionService/QuestionService.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/QuestionService/QuestionService.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuestionService/obj/Debug/net9.0/QuestionService.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/QuestionService/obj/Debug/net9.0/QuestionService.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuestionService/obj/Debug/net9.0/QuestionService.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/QuestionService/obj/Debug/net9.0/QuestionService.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuestionService/obj/Debug/net9.0/QuestionService.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/QuestionService/obj/Debug/net9.0/QuestionService.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuestionService/obj/QuestionService.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/QuestionService/obj/QuestionService.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuestionService/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/QuestionService/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuestionService/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/QuestionService/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuestionService/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/QuestionService/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuestionService/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/QuestionService/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuestionService/Services/TagService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/QuestionService/Services/TagService.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +28,8 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Contracts/QuestionCreated.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Contracts/QuestionDeleted.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Contracts/QuestionUpdated.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/QuestionService/Controllers/QuestionsController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/QuestionService/Controllers/TagController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/QuestionService/DTOs/CreateQuestionDto.cs" root0="FORCE_HIGHLIGHTING" />
@@ -62,7 +57,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "search-service-part-2",
+    "git-widget-placeholder": "search-and-answers-service",
     "junie.onboarding.icon.badge.shown": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",

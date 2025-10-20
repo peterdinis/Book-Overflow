@@ -25,4 +25,12 @@ public class TagService
             return await _db.Tags.AsNoTracking().ToListAsync();
         }) ?? new List<Tag>();
     }
+
+    public async Task<bool> AreTagsValidAsync(List<string> slugs)
+    {
+        var tags = await GetTagsAsync();
+        var tagSet = tags.Select(x => x.Slug).ToHashSet(StringComparer.OrdinalIgnoreCase);
+        return slugs.All(x => tagSet.Contains(x));
+        
+    }
 }
