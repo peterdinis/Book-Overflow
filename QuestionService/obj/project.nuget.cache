@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "PNHoV7EG9kI=",
+  "dgSpecHash": "vVwWlAHCvCc=",
   "success": true,
   "projectFilePath": "/home/peterdinis/Desktop/CV/BookOverflow/QuestionService/QuestionService.csproj",
   "expectedPackageFiles": [
@@ -163,30 +163,5 @@
     "/home/peterdinis/.nuget/packages/wolverinefx/4.12.3/wolverinefx.4.12.3.nupkg.sha512",
     "/home/peterdinis/.nuget/packages/wolverinefx.rabbitmq/4.12.3/wolverinefx.rabbitmq.4.12.3.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1608",
-      "level": "Warning",
-      "message": "Detected package version outside of dependency constraint: Microsoft.CodeAnalysis.Workspaces.MSBuild 4.8.0 requires Microsoft.CodeAnalysis.Common (= 4.8.0) but version Microsoft.CodeAnalysis.Common 4.14.0 was resolved.",
-      "projectPath": "/home/peterdinis/Desktop/CV/BookOverflow/QuestionService/QuestionService.csproj",
-      "warningLevel": 1,
-      "filePath": "/home/peterdinis/Desktop/CV/BookOverflow/QuestionService/QuestionService.csproj",
-      "libraryId": "Microsoft.CodeAnalysis.Common",
-      "targetGraphs": [
-        "net9.0"
-      ]
-    },
-    {
-      "code": "NU1608",
-      "level": "Warning",
-      "message": "Detected package version outside of dependency constraint: Microsoft.CodeAnalysis.Workspaces.MSBuild 4.8.0 requires Microsoft.CodeAnalysis.Workspaces.Common (= 4.8.0) but version Microsoft.CodeAnalysis.Workspaces.Common 4.14.0 was resolved.",
-      "projectPath": "/home/peterdinis/Desktop/CV/BookOverflow/QuestionService/QuestionService.csproj",
-      "warningLevel": 1,
-      "filePath": "/home/peterdinis/Desktop/CV/BookOverflow/QuestionService/QuestionService.csproj",
-      "libraryId": "Microsoft.CodeAnalysis.Workspaces.Common",
-      "targetGraphs": [
-        "net9.0"
-      ]
-    }
-  ]
+  "logs": []
 }

@@ -9201,6 +9201,9 @@
         }
       },
       "warningProperties": {
+        "noWarn": [
+          "NU1608"
+        ],
         "warnAsError": [
           "NU1605"
         ]
@@ -9269,27 +9272,5 @@
         "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/9.0.110/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1608",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Detected package version outside of dependency constraint: Microsoft.CodeAnalysis.Workspaces.MSBuild 4.8.0 requires Microsoft.CodeAnalysis.Common (= 4.8.0) but version Microsoft.CodeAnalysis.Common 4.14.0 was resolved.",
-      "libraryId": "Microsoft.CodeAnalysis.Common",
-      "targetGraphs": [
-        "net9.0"
-      ]
-    },
-    {
-      "code": "NU1608",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Detected package version outside of dependency constraint: Microsoft.CodeAnalysis.Workspaces.MSBuild 4.8.0 requires Microsoft.CodeAnalysis.Workspaces.Common (= 4.8.0) but version Microsoft.CodeAnalysis.Workspaces.Common 4.14.0 was resolved.",
-      "libraryId": "Microsoft.CodeAnalysis.Workspaces.Common",
-      "targetGraphs": [
-        "net9.0"
-      ]
-    }
-  ]
+  }
 }
