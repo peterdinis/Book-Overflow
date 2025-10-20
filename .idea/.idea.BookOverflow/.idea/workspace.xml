@@ -11,7 +11,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2299b182-a23c-4e6e-a064-c7f52d4247b0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/SearchService/MessagesHandlers/QuestionCreatedHandler.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BookOverflow/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BookOverflow/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuestionService/QuestionService.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/QuestionService/QuestionService.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuestionService/obj/Debug/net9.0/QuestionService.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/QuestionService/obj/Debug/net9.0/QuestionService.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuestionService/obj/Debug/net9.0/QuestionService.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/QuestionService/obj/Debug/net9.0/QuestionService.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuestionService/obj/QuestionService.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/QuestionService/obj/QuestionService.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuestionService/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/QuestionService/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuestionService/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/QuestionService/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuestionService/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/QuestionService/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuestionService/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/QuestionService/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SearchService/SearchService.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/SearchService/SearchService.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +35,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Contracts/QuestionCreated.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/QuestionService/Controllers/QuestionsController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/QuestionService/Controllers/TagController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/QuestionService/DTOs/CreateQuestionDto.cs" root0="FORCE_HIGHLIGHTING" />
@@ -33,6 +44,7 @@
     <setting file="file://$PROJECT_DIR$/QuestionService/Models/Tag.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/QuestionService/Validators/TagListValidators.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SearchService/Data/SearchInializer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SearchService/MessagesHandlers/QuestionCreatedHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SearchService/Models/SearchQuestion.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
@@ -160,7 +172,7 @@
       <workItem from="1760813518691" duration="3648000" />
       <workItem from="1760865371853" duration="5739000" />
       <workItem from="1760888060220" duration="6698000" />
-      <workItem from="1760960550574" duration="2202000" />
+      <workItem from="1760960550574" duration="3289000" />
     </task>
     <servers />
   </component>
