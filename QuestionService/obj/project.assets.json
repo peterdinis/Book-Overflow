@@ -3249,6 +3249,16 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contracts.dll": {}
+        }
       }
     }
   },
@@ -9135,12 +9145,18 @@
       "type": "project",
       "path": "../BookOverflow.ServiceDefaults/BookOverflow.ServiceDefaults.csproj",
       "msbuildProject": "../BookOverflow.ServiceDefaults/BookOverflow.ServiceDefaults.csproj"
+    },
+    "Contracts/1.0.0": {
+      "type": "project",
+      "path": "../Contracts/Contracts.csproj",
+      "msbuildProject": "../Contracts/Contracts.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
       "Aspire.Keycloak.Authentication >= 9.5.1-preview.1.25502.11",
       "BookOverflow.ServiceDefaults >= 1.0.0",
+      "Contracts >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 9.0.9",
       "Microsoft.EntityFrameworkCore >= 9.0.10",
       "Microsoft.EntityFrameworkCore.Sqlite >= 9.0.10",
@@ -9177,11 +9193,17 @@
           "projectReferences": {
             "/home/peterdinis/Desktop/CV/BookOverflow/BookOverflow.ServiceDefaults/BookOverflow.ServiceDefaults.csproj": {
               "projectPath": "/home/peterdinis/Desktop/CV/BookOverflow/BookOverflow.ServiceDefaults/BookOverflow.ServiceDefaults.csproj"
+            },
+            "/home/peterdinis/Desktop/CV/BookOverflow/Contracts/Contracts.csproj": {
+              "projectPath": "/home/peterdinis/Desktop/CV/BookOverflow/Contracts/Contracts.csproj"
             }
           }
         }
       },
       "warningProperties": {
+        "noWarn": [
+          "NU1608"
+        ],
         "warnAsError": [
           "NU1605"
         ]
@@ -9250,27 +9272,5 @@
         "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/9.0.110/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1608",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Detected package version outside of dependency constraint: Microsoft.CodeAnalysis.Workspaces.MSBuild 4.8.0 requires Microsoft.CodeAnalysis.Common (= 4.8.0) but version Microsoft.CodeAnalysis.Common 4.14.0 was resolved.",
-      "libraryId": "Microsoft.CodeAnalysis.Common",
-      "targetGraphs": [
-        "net9.0"
-      ]
-    },
-    {
-      "code": "NU1608",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Detected package version outside of dependency constraint: Microsoft.CodeAnalysis.Workspaces.MSBuild 4.8.0 requires Microsoft.CodeAnalysis.Workspaces.Common (= 4.8.0) but version Microsoft.CodeAnalysis.Workspaces.Common 4.14.0 was resolved.",
-      "libraryId": "Microsoft.CodeAnalysis.Workspaces.Common",
-      "targetGraphs": [
-        "net9.0"
-      ]
-    }
-  ]
+  }
 }
