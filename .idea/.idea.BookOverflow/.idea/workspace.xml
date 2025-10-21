@@ -12,6 +12,8 @@
   <component name="ChangeListManager">
     <list default="true" id="2299b182-a23c-4e6e-a064-c7f52d4247b0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BookOverflow/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BookOverflow/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuestionService/Controllers/QuestionsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/QuestionService/Controllers/QuestionsController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SearchService/MessagesHandlers/QuestionUpdatedHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SearchService/MessagesHandlers/QuestionUpdatedHandler.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,13 +34,17 @@
     <setting file="file://$PROJECT_DIR$/Contracts/QuestionUpdated.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/QuestionService/Controllers/QuestionsController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/QuestionService/Controllers/TagController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/QuestionService/DTOs/CreateAnswerDto.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/QuestionService/DTOs/CreateQuestionDto.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/QuestionService/Data/QuestionDbContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/QuestionService/Models/Answer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/QuestionService/Models/Question.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/QuestionService/Models/Tag.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/QuestionService/Services/TagService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/QuestionService/Validators/TagListValidators.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SearchService/Data/SearchInializer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SearchService/MessagesHandlers/AcceptAnswerHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SearchService/MessagesHandlers/AnswerCountUpdatedHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SearchService/MessagesHandlers/QuestionCreatedHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SearchService/MessagesHandlers/QuestionDeletedHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SearchService/MessagesHandlers/QuestionUpdatedHandler.cs" root0="FORCE_HIGHLIGHTING" />
@@ -170,7 +176,7 @@
       <workItem from="1760865371853" duration="5739000" />
       <workItem from="1760888060220" duration="6698000" />
       <workItem from="1760960550574" duration="6017000" />
-      <workItem from="1761059551962" duration="906000" />
+      <workItem from="1761059551962" duration="2062000" />
     </task>
     <servers />
   </component>
