@@ -1,17 +1,16 @@
-using Typesense.Setup;
-using Typesense;
+using System.Text.RegularExpressions;
+using OpenTelemetry.Resources;
+using OpenTelemetry.Trace;
 using SearchService.Data;
 using SearchService.Models;
-using System.Text.RegularExpressions;
-using OpenTelemetry.Trace;
-using OpenTelemetry.Resources;
+using Typesense;
+using Typesense.Setup;
 using Wolverine;
 using Wolverine.RabbitMQ;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-// Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
 builder.AddServiceDefaults();
 
@@ -29,7 +28,6 @@ builder.Host.UseWolverine(opts =>
     {
         cfg.BindExchange("questions");
     });
-
 });
 
 var typesenseUri = builder.Configuration["services:typesense:typesense:0"];
@@ -77,6 +75,21 @@ app.MapGet("/search", async (string query, ITypesenseClient client) =>
     {
         searchParams.FilterBy = $"tags:=[{tag}]";
     }
+
+    try
+    {
+        var result = await client.Search<SearchQuestion>("questions", searchParams);
+        return Results.Ok(result.Hits.Select(hit => hit.Document));
+    }
+    catch (Exception e)
+    {
+        return Results.Problem("Typesense search failed", e.Message);
+    }
+});
+
+app.MapGet("/search/similar-titles", async (string query, ITypesenseClient client) =>
+{
+    var searchParams = new SearchParameters(query, "title");
 
     try
     {

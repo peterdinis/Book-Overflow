@@ -4,13 +4,15 @@ using OpenTelemetry.Resources;
 using OpenTelemetry.Trace;
 using Wolverine;
 using Wolverine.RabbitMQ;
+using QuestionService.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 
 builder.Services.AddOpenApi();
-
+builder.Services.AddMemoryCache();
+builder.Services.AddScoped<TagService>();
 builder.AddServiceDefaults();
 
 builder.Services.AddAuthentication()

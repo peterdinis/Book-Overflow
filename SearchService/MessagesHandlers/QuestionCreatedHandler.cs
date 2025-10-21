@@ -1,15 +1,16 @@
 using System.Text.RegularExpressions;
-using Typesense;
 using Contracts;
 using SearchService.Models;
+using Typesense;
 
-namespace SearchService.MessagesHandlers;
+namespace SearchService.MessageHandlers;
 
 public class QuestionCreatedHandler(ITypesenseClient client)
 {
     public async Task HandleAsync(QuestionCreated message)
     {
         var created = new DateTimeOffset(message.Created).ToUnixTimeSeconds();
+
         var doc = new SearchQuestion
         {
             Id = message.QuestionId,
@@ -18,9 +19,9 @@ public class QuestionCreatedHandler(ITypesenseClient client)
             CreatedAt = created,
             Tags = message.Tags.ToArray(),
         };
-
         await client.CreateDocument("questions", doc);
         
+        Console.WriteLine($"Created question with id {message.QuestionId}");
     }
 
     private static string StripHtml(string content)
