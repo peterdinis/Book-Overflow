@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "9tz7c0U38yw=",
+  "dgSpecHash": "0Yn0xGklZVU=",
   "success": true,
   "projectFilePath": "/home/peterdinis/Desktop/CV/BookOverflow/BookOverflow.AppHost/BookOverflow.AppHost.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "/home/peterdinis/.nuget/packages/aspire.hosting/9.5.1/aspire.hosting.9.5.1.nupkg.sha512",
     "/home/peterdinis/.nuget/packages/aspire.hosting.apphost/9.5.1/aspire.hosting.apphost.9.5.1.nupkg.sha512",
     "/home/peterdinis/.nuget/packages/aspire.hosting.keycloak/9.5.1-preview.1.25502.11/aspire.hosting.keycloak.9.5.1-preview.1.25502.11.nupkg.sha512",
+    "/home/peterdinis/.nuget/packages/aspire.hosting.nodejs/9.5.1/aspire.hosting.nodejs.9.5.1.nupkg.sha512",
     "/home/peterdinis/.nuget/packages/aspire.hosting.orchestration.linux-x64/9.5.1/aspire.hosting.orchestration.linux-x64.9.5.1.nupkg.sha512",
     "/home/peterdinis/.nuget/packages/aspire.hosting.postgresql/9.5.1/aspire.hosting.postgresql.9.5.1.nupkg.sha512",
     "/home/peterdinis/.nuget/packages/aspire.hosting.rabbitmq/9.5.1/aspire.hosting.rabbitmq.9.5.1.nupkg.sha512",

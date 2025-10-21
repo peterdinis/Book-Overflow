@@ -10,11 +10,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2299b182-a23c-4e6e-a064-c7f52d4247b0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/QuestionService/obj/Debug/net9.0/QuestionService.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/QuestionService/obj/Debug/net9.0/QuestionService.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuestionService/obj/Debug/net9.0/QuestionService.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/QuestionService/obj/Debug/net9.0/QuestionService.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuestionService/obj/Debug/net9.0/QuestionService.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/QuestionService/obj/Debug/net9.0/QuestionService.csproj.AssemblyReference.cache" afterDir="false" />
-    </list>
+    <list default="true" id="2299b182-a23c-4e6e-a064-c7f52d4247b0" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -177,6 +173,7 @@
       <workItem from="1760888060220" duration="6698000" />
       <workItem from="1760960550574" duration="6017000" />
       <workItem from="1761059551962" duration="2062000" />
+      <workItem from="1761072771239" duration="498000" />
     </task>
     <servers />
   </component>

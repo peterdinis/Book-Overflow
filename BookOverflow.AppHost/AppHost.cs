@@ -22,6 +22,10 @@ var questionService = builder.AddProject<Projects.QuestionService>("question-svc
     .WaitFor(keycloak)
     .WaitFor(rabbitmq);
 
+var webapp = builder.AddNpmApp("webapp", "../webapp", "dev")
+    .WithReference(keycloak)
+    .WithHttpEndpoint(env: "PORT", port: 3000);
+
 var searchService = builder.AddProject<Projects.SearchService>("search-svc")
     .WithReference(typesenseContainer)
     .WaitFor(typesense);
