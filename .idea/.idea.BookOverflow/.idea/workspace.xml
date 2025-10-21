@@ -10,11 +10,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2299b182-a23c-4e6e-a064-c7f52d4247b0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Contracts/QuestionDeleted.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BookOverflow/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BookOverflow/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuestionService/Services/TagService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/QuestionService/Services/TagService.cs" afterDir="false" />
-    </list>
+    <list default="true" id="2299b182-a23c-4e6e-a064-c7f52d4247b0" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,6 +36,8 @@
     <setting file="file://$PROJECT_DIR$/QuestionService/Validators/TagListValidators.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SearchService/Data/SearchInializer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SearchService/MessagesHandlers/QuestionCreatedHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SearchService/MessagesHandlers/QuestionDeletedHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SearchService/MessagesHandlers/QuestionUpdatedHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SearchService/Models/SearchQuestion.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
