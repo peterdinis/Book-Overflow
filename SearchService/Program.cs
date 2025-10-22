@@ -10,10 +10,11 @@ using Wolverine.RabbitMQ;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+// --- Add OpenAPI ---
 builder.Services.AddOpenApi();
 builder.AddServiceDefaults();
 
+// --- Add OpenTelemetry tracing ---
 builder.Services.AddOpenTelemetry().WithTracing(traceProviderBuilder =>
 {
     traceProviderBuilder.SetResourceBuilder(ResourceBuilder.CreateDefault()
@@ -21,6 +22,7 @@ builder.Services.AddOpenTelemetry().WithTracing(traceProviderBuilder =>
         .AddSource("Wolverine");
 });
 
+// --- Configure Wolverine with RabbitMQ ---
 builder.Host.UseWolverine(opts =>
 {
     opts.UseRabbitMqUsingNamedConnection("messaging").AutoProvision();
@@ -30,27 +32,30 @@ builder.Host.UseWolverine(opts =>
     });
 });
 
-var typesenseUri = builder.Configuration["services:typesense:typesense:0"];
-if (string.IsNullOrEmpty(typesenseUri))
+// --- Retrieve Typesense endpoint and API key from DistributedApplication builder ---
+// (tieto hodnoty musia byť nastavené pri spustení buildera)
+var typesenseContainer = builder.Configuration["services:typesense:typesense:0"];
+if (string.IsNullOrEmpty(typesenseContainer))
     throw new InvalidOperationException("Typesense URI not found in config");
 
 var typesenseApiKey = builder.Configuration["typesense-api-key"];
 if (string.IsNullOrEmpty(typesenseApiKey))
     throw new InvalidOperationException("Typesense API key not found in config");
 
-var uri = new Uri(typesenseUri);
+// --- Configure Typesense client ---
+var uri = new Uri(typesenseContainer);
 builder.Services.AddTypesenseClient(config =>
 {
     config.ApiKey = typesenseApiKey;
-    config.Nodes =
-    [
-        new(uri.Host, uri.Port.ToString(), uri.Scheme)
-    ];
+    config.Nodes = new[]
+    {
+        new Node(uri.Host, uri.Port.ToString(), uri.Scheme)
+    };
 });
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+// --- Configure HTTP request pipeline ---
 if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
@@ -58,9 +63,9 @@ if (app.Environment.IsDevelopment())
 
 app.MapDefaultEndpoints();
 
+// --- Search endpoint ---
 app.MapGet("/search", async (string query, ITypesenseClient client) =>
 {
-    // [aspire]something
     string? tag = null;
     var tagMatch = Regex.Match(query, @"\[(.*?)\]");
     if (tagMatch.Success)
@@ -87,6 +92,7 @@ app.MapGet("/search", async (string query, ITypesenseClient client) =>
     }
 });
 
+// --- Similar titles endpoint ---
 app.MapGet("/search/similar-titles", async (string query, ITypesenseClient client) =>
 {
     var searchParams = new SearchParameters(query, "title");
@@ -102,6 +108,7 @@ app.MapGet("/search/similar-titles", async (string query, ITypesenseClient clien
     }
 });
 
+// --- Ensure Typesense index exists ---
 using var scope = app.Services.CreateScope();
 var client = scope.ServiceProvider.GetRequiredService<ITypesenseClient>();
 await SearchInitializer.EnsureIndexExists(client);
