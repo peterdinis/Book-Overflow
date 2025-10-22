@@ -25,7 +25,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BookOverflow.AppHost")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f82f55bac0337388ca1e9658d79524c0c5c14e04")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+87ed70e76e8921825725456602956db0f89b233a")]
 [assembly: System.Reflection.AssemblyProductAttribute("BookOverflow.AppHost")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BookOverflow.AppHost")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
