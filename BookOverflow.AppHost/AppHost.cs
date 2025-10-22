@@ -2,8 +2,6 @@ var builder = DistributedApplication.CreateBuilder(args);
 
 // --- Keycloak ---
 var keycloak = builder.AddContainer("keycloak", "quay.io/keycloak/keycloak", "26.3")
-    .WithEnvironment("KEYCLOAK_ADMIN", "admin")
-    .WithEnvironment("KEYCLOAK_ADMIN_PASSWORD", "admin")
     .WithArgs("start-dev", "--import-realm")
     .WithVolume("keycloak-data-dev", "/opt/keycloak/data") // opravené
     .WithHttpEndpoint(6001, 8080, name: "http");
@@ -21,9 +19,8 @@ var typesense = builder.AddContainer("typesense", "typesense/typesense", "29.0")
         "--enable-cors",
         "--listen-port", "8108"
     )
-    .WithVolume("typesense-data", "/data")
+    .WithVolume("typesense-data-dev", "/data")  // nový volume pre čisté spustenie
     .WithHttpEndpoint(8108, 8108, name: "typesense");
-
 // získaj endpoint pre Typesense
 var typesenseContainer = typesense.GetEndpoint("typesense");
 

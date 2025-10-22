@@ -42,10 +42,10 @@ var uri = new Uri(typesenseUri);
 builder.Services.AddTypesenseClient(config =>
 {
     config.ApiKey = typesenseApiKey;
-    config.Nodes = new List<Node>
-    {
+    config.Nodes =
+    [
         new(uri.Host, uri.Port.ToString(), uri.Scheme)
-    };
+    ];
 });
 
 var app = builder.Build();

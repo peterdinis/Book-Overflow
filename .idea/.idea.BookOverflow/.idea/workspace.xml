@@ -11,6 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2299b182-a23c-4e6e-a064-c7f52d4247b0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BookOverflow/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BookOverflow/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookOverflow.AppHost/AppHost.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BookOverflow.AppHost/AppHost.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookOverflow.AppHost/bin/Debug/net9.0/BookOverflow.AppHost.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BookOverflow.AppHost/bin/Debug/net9.0/BookOverflow.AppHost.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookOverflow.AppHost/bin/Debug/net9.0/BookOverflow.AppHost.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BookOverflow.AppHost/bin/Debug/net9.0/BookOverflow.AppHost.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookOverflow.AppHost/obj/Debug/net9.0/BookOverflow.AppHost.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BookOverflow.AppHost/obj/Debug/net9.0/BookOverflow.AppHost.AssemblyInfo.cs" afterDir="false" />
@@ -20,6 +22,7 @@
       <change beforePath="$PROJECT_DIR$/BookOverflow.AppHost/obj/Debug/net9.0/BookOverflow.AppHost.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/BookOverflow.AppHost/obj/Debug/net9.0/BookOverflow.AppHost.sourcelink.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookOverflow.AppHost/obj/Debug/net9.0/ref/BookOverflow.AppHost.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BookOverflow.AppHost/obj/Debug/net9.0/ref/BookOverflow.AppHost.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookOverflow.AppHost/obj/Debug/net9.0/refint/BookOverflow.AppHost.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BookOverflow.AppHost/obj/Debug/net9.0/refint/BookOverflow.AppHost.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SearchService/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SearchService/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
